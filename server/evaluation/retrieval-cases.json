@@ -1,0 +1,31 @@
+{
+  "description": "Synthetic passages and labeled queries for checking retrieval ranking. This fixture contains no student data.",
+  "passages": [
+    { "id": "biology-cell", "text": "The cell membrane is a selectively permeable boundary that controls which substances enter and leave a cell. It is mainly composed of a phospholipid bilayer with embedded proteins." },
+    { "id": "biology-mitosis", "text": "Mitosis is a type of cell division that produces two genetically identical daughter cells. Its stages are prophase, metaphase, anaphase, and telophase." },
+    { "id": "biology-photosynthesis", "text": "Photosynthesis converts light energy into chemical energy. In plants, chlorophyll captures light, and carbon dioxide and water are used to produce glucose and oxygen." },
+    { "id": "physics-newton", "text": "Newton's second law states that the net force on an object equals its mass multiplied by its acceleration, often written as F equals m times a." },
+    { "id": "physics-energy", "text": "The law of conservation of energy says energy cannot be created or destroyed, only transferred or transformed from one form into another." },
+    { "id": "physics-ohm", "text": "Ohm's law describes the relationship between voltage, current, and resistance: voltage equals current multiplied by resistance, or V equals I times R." },
+    { "id": "history-causes", "text": "Long-term causes of the French Revolution included social inequality among the estates, government debt, high taxes, and poor harvests." },
+    { "id": "history-bastille", "text": "On 14 July 1789, a Paris crowd stormed the Bastille, a royal fortress and prison. The event became a symbol of the revolution against royal authority." },
+    { "id": "history-declaration", "text": "The Declaration of the Rights of Man and of the Citizen, adopted in 1789, affirmed liberty, equality before the law, and popular sovereignty." },
+    { "id": "math-derivative", "text": "A derivative measures the instantaneous rate of change of a function with respect to its input. Geometrically it is the slope of the tangent line." },
+    { "id": "math-integral", "text": "A definite integral accumulates a quantity over an interval and can represent the signed area between a function and the horizontal axis." },
+    { "id": "math-probability", "text": "For equally likely outcomes, probability is the number of favorable outcomes divided by the total number of possible outcomes." }
+  ],
+  "cases": [
+    { "query": "What controls substances entering and leaving a cell?", "expected": "biology-cell" },
+    { "query": "Which stages make up mitosis and what cells result?", "expected": "biology-mitosis" },
+    { "query": "How does a plant convert sunlight into stored chemical energy?", "expected": "biology-photosynthesis" },
+    { "query": "How are net force, mass, and acceleration related?", "expected": "physics-newton" },
+    { "query": "Can energy be created or destroyed according to conservation?", "expected": "physics-energy" },
+    { "query": "What equation relates electrical voltage, current, and resistance?", "expected": "physics-ohm" },
+    { "query": "What economic and social conditions contributed to the French Revolution?", "expected": "history-causes" },
+    { "query": "What happened at the Bastille in July 1789?", "expected": "history-bastille" },
+    { "query": "Which rights and political ideas did the 1789 declaration affirm?", "expected": "history-declaration" },
+    { "query": "What does a derivative tell us about a function's change?", "expected": "math-derivative" },
+    { "query": "How can an integral represent accumulated area?", "expected": "math-integral" },
+    { "query": "How is probability calculated when every outcome is equally likely?", "expected": "math-probability" }
+  ]
+}

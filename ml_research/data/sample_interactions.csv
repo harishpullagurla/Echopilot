@@ -1,0 +1,1248 @@
+student_id,skill_name,opportunity,is_correct,latent_mastery,timestamp
+student_01,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_01,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_01,Deadlock Necessary Conditions,3,1,0,2026-10-28T10:10:00Z
+student_01,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_01,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_01,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_01,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_01,Deadlock Necessary Conditions,8,0,1,2026-10-28T11:35:00Z
+student_01,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_01,Deadlock Necessary Conditions,10,0,1,2026-10-28T12:45:00Z
+student_01,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_01,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_01,Banker's Algorithm & Safe State,3,1,0,2026-10-28T10:10:00Z
+student_01,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_01,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_01,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_01,Banker's Algorithm & Safe State,7,1,0,2026-10-28T11:30:00Z
+student_01,Properties of Relations,1,0,1,2026-10-28T10:00:00Z
+student_01,Properties of Relations,2,0,1,2026-10-28T10:05:00Z
+student_01,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_01,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_01,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_01,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_01,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_02,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_02,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_02,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_02,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_02,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_02,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_02,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_02,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_02,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_02,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_02,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_02,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_02,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_02,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_02,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_02,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_02,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_02,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_02,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_02,Properties of Relations,3,1,0,2026-10-28T10:10:00Z
+student_02,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_02,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_02,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_02,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_03,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_03,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_03,Deadlock Necessary Conditions,3,0,1,2026-10-28T10:10:00Z
+student_03,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_03,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_03,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_03,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_03,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_03,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_03,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_03,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_03,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_03,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_03,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_03,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_03,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_03,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_03,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_03,Banker's Algorithm & Safe State,11,1,1,2026-10-28T12:50:00Z
+student_03,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_03,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_03,Properties of Relations,3,0,1,2026-10-28T10:10:00Z
+student_03,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_03,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_03,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_04,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_04,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_04,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_04,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_04,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_04,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_04,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_04,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_04,Banker's Algorithm & Safe State,1,1,0,2026-10-28T10:00:00Z
+student_04,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_04,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_04,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_04,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_04,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_04,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_04,Properties of Relations,1,1,0,2026-10-28T10:00:00Z
+student_04,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_04,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_04,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_04,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_04,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_05,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_05,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_05,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_05,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_05,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_05,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_05,Banker's Algorithm & Safe State,1,1,0,2026-10-28T10:00:00Z
+student_05,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_05,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_05,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_05,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_05,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_05,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_05,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_05,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_05,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_05,Banker's Algorithm & Safe State,11,1,1,2026-10-28T12:50:00Z
+student_05,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_05,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_05,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_05,Properties of Relations,4,0,1,2026-10-28T10:15:00Z
+student_05,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_05,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_05,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_05,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_06,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_06,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_06,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_06,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_06,Deadlock Necessary Conditions,5,1,0,2026-10-28T11:20:00Z
+student_06,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_06,Deadlock Necessary Conditions,7,0,0,2026-10-28T11:30:00Z
+student_06,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_06,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_06,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_06,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_06,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_06,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_06,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_06,Banker's Algorithm & Safe State,8,0,0,2026-10-28T11:35:00Z
+student_06,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_06,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_06,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_06,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_06,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_06,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_06,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_06,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_06,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_07,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_07,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_07,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_07,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_07,Deadlock Necessary Conditions,5,0,0,2026-10-28T11:20:00Z
+student_07,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_07,Deadlock Necessary Conditions,7,0,0,2026-10-28T11:30:00Z
+student_07,Deadlock Necessary Conditions,8,0,1,2026-10-28T11:35:00Z
+student_07,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_07,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_07,Deadlock Necessary Conditions,11,1,1,2026-10-28T12:50:00Z
+student_07,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_07,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_07,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_07,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_07,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_07,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_07,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_07,Banker's Algorithm & Safe State,8,1,0,2026-10-28T11:35:00Z
+student_07,Banker's Algorithm & Safe State,9,0,0,2026-10-28T12:40:00Z
+student_07,Banker's Algorithm & Safe State,10,0,0,2026-10-28T12:45:00Z
+student_07,Properties of Relations,1,1,0,2026-10-28T10:00:00Z
+student_07,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_07,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_07,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_07,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_07,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_08,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_08,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_08,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_08,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_08,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_08,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_08,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_08,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_08,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_08,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_08,Deadlock Necessary Conditions,11,1,1,2026-10-28T12:50:00Z
+student_08,Banker's Algorithm & Safe State,1,1,1,2026-10-28T10:00:00Z
+student_08,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_08,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_08,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_08,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_08,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_08,Banker's Algorithm & Safe State,7,0,1,2026-10-28T11:30:00Z
+student_08,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_08,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_08,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_08,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_08,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_08,Properties of Relations,4,0,1,2026-10-28T10:15:00Z
+student_08,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_08,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_08,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_08,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_08,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_08,Properties of Relations,10,1,1,2026-10-28T12:45:00Z
+student_08,Properties of Relations,11,1,1,2026-10-28T12:50:00Z
+student_09,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_09,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_09,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_09,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_09,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_09,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_09,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_09,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_09,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_09,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_09,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_09,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_09,Properties of Relations,1,0,1,2026-10-28T10:00:00Z
+student_09,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_09,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_09,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_09,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_09,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_09,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_09,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_09,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_09,Properties of Relations,10,0,1,2026-10-28T12:45:00Z
+student_09,Properties of Relations,11,1,1,2026-10-28T12:50:00Z
+student_10,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_10,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_10,Deadlock Necessary Conditions,3,1,0,2026-10-28T10:10:00Z
+student_10,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_10,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_10,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_10,Deadlock Necessary Conditions,7,0,1,2026-10-28T11:30:00Z
+student_10,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_10,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_10,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_10,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_10,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_10,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_10,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_10,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_10,Properties of Relations,2,1,0,2026-10-28T10:05:00Z
+student_10,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_10,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_10,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_10,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_10,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_11,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_11,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_11,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_11,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_11,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_11,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_11,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_11,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_11,Banker's Algorithm & Safe State,3,0,1,2026-10-28T10:10:00Z
+student_11,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_11,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_11,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_11,Banker's Algorithm & Safe State,7,0,1,2026-10-28T11:30:00Z
+student_11,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_11,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_11,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_11,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_11,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_11,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_11,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_11,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_11,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_11,Properties of Relations,8,0,1,2026-10-28T11:35:00Z
+student_11,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_12,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_12,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_12,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_12,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_12,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_12,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_12,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_12,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_12,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_12,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_12,Banker's Algorithm & Safe State,1,1,1,2026-10-28T10:00:00Z
+student_12,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_12,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_12,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_12,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_12,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_12,Banker's Algorithm & Safe State,7,0,1,2026-10-28T11:30:00Z
+student_12,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_12,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_12,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_12,Banker's Algorithm & Safe State,11,0,1,2026-10-28T12:50:00Z
+student_12,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_12,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_12,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_12,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_12,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_12,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_12,Properties of Relations,7,0,0,2026-10-28T11:30:00Z
+student_12,Properties of Relations,8,0,0,2026-10-28T11:35:00Z
+student_12,Properties of Relations,9,0,0,2026-10-28T12:40:00Z
+student_13,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_13,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_13,Deadlock Necessary Conditions,3,0,1,2026-10-28T10:10:00Z
+student_13,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_13,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_13,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_13,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_13,Banker's Algorithm & Safe State,2,1,0,2026-10-28T10:05:00Z
+student_13,Banker's Algorithm & Safe State,3,1,0,2026-10-28T10:10:00Z
+student_13,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_13,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_13,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_13,Banker's Algorithm & Safe State,7,1,0,2026-10-28T11:30:00Z
+student_13,Banker's Algorithm & Safe State,8,1,0,2026-10-28T11:35:00Z
+student_13,Banker's Algorithm & Safe State,9,1,0,2026-10-28T12:40:00Z
+student_13,Banker's Algorithm & Safe State,10,0,0,2026-10-28T12:45:00Z
+student_13,Properties of Relations,1,0,1,2026-10-28T10:00:00Z
+student_13,Properties of Relations,2,0,1,2026-10-28T10:05:00Z
+student_13,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_13,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_13,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_13,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_13,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_13,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_13,Properties of Relations,9,0,1,2026-10-28T12:40:00Z
+student_13,Properties of Relations,10,1,1,2026-10-28T12:45:00Z
+student_14,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_14,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_14,Deadlock Necessary Conditions,3,1,0,2026-10-28T10:10:00Z
+student_14,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_14,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_14,Deadlock Necessary Conditions,6,0,1,2026-10-28T11:25:00Z
+student_14,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_14,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_14,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_14,Deadlock Necessary Conditions,10,0,1,2026-10-28T12:45:00Z
+student_14,Banker's Algorithm & Safe State,1,1,0,2026-10-28T10:00:00Z
+student_14,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_14,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_14,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_14,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_14,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_14,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_14,Banker's Algorithm & Safe State,8,0,1,2026-10-28T11:35:00Z
+student_14,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_14,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_14,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_14,Properties of Relations,2,1,0,2026-10-28T10:05:00Z
+student_14,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_14,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_14,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_14,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_14,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_14,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_15,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_15,Deadlock Necessary Conditions,2,1,0,2026-10-28T10:05:00Z
+student_15,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_15,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_15,Deadlock Necessary Conditions,5,0,0,2026-10-28T11:20:00Z
+student_15,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_15,Deadlock Necessary Conditions,7,0,0,2026-10-28T11:30:00Z
+student_15,Deadlock Necessary Conditions,8,0,0,2026-10-28T11:35:00Z
+student_15,Deadlock Necessary Conditions,9,1,0,2026-10-28T12:40:00Z
+student_15,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_15,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_15,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_15,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_15,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_15,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_15,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_15,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_15,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_15,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_15,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_15,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_15,Properties of Relations,7,0,0,2026-10-28T11:30:00Z
+student_15,Properties of Relations,8,0,0,2026-10-28T11:35:00Z
+student_16,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_16,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_16,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_16,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_16,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_16,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_16,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_16,Banker's Algorithm & Safe State,1,1,1,2026-10-28T10:00:00Z
+student_16,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_16,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_16,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_16,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_16,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_16,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_16,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_16,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_16,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_16,Properties of Relations,5,1,0,2026-10-28T11:20:00Z
+student_16,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_17,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_17,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_17,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_17,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_17,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_17,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_17,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_17,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_17,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_17,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_17,Deadlock Necessary Conditions,11,1,1,2026-10-28T12:50:00Z
+student_17,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_17,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_17,Banker's Algorithm & Safe State,3,1,0,2026-10-28T10:10:00Z
+student_17,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_17,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_17,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_17,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_17,Banker's Algorithm & Safe State,8,0,0,2026-10-28T11:35:00Z
+student_17,Banker's Algorithm & Safe State,9,0,0,2026-10-28T12:40:00Z
+student_17,Banker's Algorithm & Safe State,10,1,0,2026-10-28T12:45:00Z
+student_17,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_17,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_17,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_17,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_17,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_17,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_17,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_17,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_17,Properties of Relations,9,0,1,2026-10-28T12:40:00Z
+student_18,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_18,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_18,Deadlock Necessary Conditions,3,1,0,2026-10-28T10:10:00Z
+student_18,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_18,Deadlock Necessary Conditions,5,0,0,2026-10-28T11:20:00Z
+student_18,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_18,Deadlock Necessary Conditions,7,0,0,2026-10-28T11:30:00Z
+student_18,Deadlock Necessary Conditions,8,0,0,2026-10-28T11:35:00Z
+student_18,Deadlock Necessary Conditions,9,1,0,2026-10-28T12:40:00Z
+student_18,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_18,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_18,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_18,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_18,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_18,Banker's Algorithm & Safe State,6,1,0,2026-10-28T11:25:00Z
+student_18,Banker's Algorithm & Safe State,7,1,0,2026-10-28T11:30:00Z
+student_18,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_18,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_18,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_18,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_18,Properties of Relations,2,0,1,2026-10-28T10:05:00Z
+student_18,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_18,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_18,Properties of Relations,5,0,1,2026-10-28T11:20:00Z
+student_18,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_18,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_18,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_18,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_18,Properties of Relations,10,1,1,2026-10-28T12:45:00Z
+student_19,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_19,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_19,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_19,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_19,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_19,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_19,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_19,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_19,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_19,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_19,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_19,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_19,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_19,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_19,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_19,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_19,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_19,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_19,Properties of Relations,7,0,0,2026-10-28T11:30:00Z
+student_19,Properties of Relations,8,1,0,2026-10-28T11:35:00Z
+student_20,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_20,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_20,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_20,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_20,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_20,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_20,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_20,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_20,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_20,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_20,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_20,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_20,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_20,Banker's Algorithm & Safe State,4,1,0,2026-10-28T10:15:00Z
+student_20,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_20,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_20,Banker's Algorithm & Safe State,7,1,0,2026-10-28T11:30:00Z
+student_20,Banker's Algorithm & Safe State,8,0,0,2026-10-28T11:35:00Z
+student_20,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_20,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_20,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_20,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_20,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_20,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_20,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_20,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_20,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_21,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_21,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_21,Deadlock Necessary Conditions,3,0,1,2026-10-28T10:10:00Z
+student_21,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_21,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_21,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_21,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_21,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_21,Banker's Algorithm & Safe State,3,1,0,2026-10-28T10:10:00Z
+student_21,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_21,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_21,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_21,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_21,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_21,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_21,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_21,Properties of Relations,5,0,1,2026-10-28T11:20:00Z
+student_21,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_21,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_21,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_22,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_22,Deadlock Necessary Conditions,2,0,1,2026-10-28T10:05:00Z
+student_22,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_22,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_22,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_22,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_22,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_22,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_22,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_22,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_22,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_22,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_22,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_22,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_22,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_22,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_22,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_22,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_22,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_22,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_22,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_22,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_22,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_22,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_22,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_22,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_23,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_23,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_23,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_23,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_23,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_23,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_23,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_23,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_23,Banker's Algorithm & Safe State,1,1,1,2026-10-28T10:00:00Z
+student_23,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_23,Banker's Algorithm & Safe State,3,0,1,2026-10-28T10:10:00Z
+student_23,Banker's Algorithm & Safe State,4,0,1,2026-10-28T10:15:00Z
+student_23,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_23,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_23,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_23,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_23,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_23,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_23,Banker's Algorithm & Safe State,11,1,1,2026-10-28T12:50:00Z
+student_23,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_23,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_23,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_23,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_23,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_23,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_23,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_23,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_24,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_24,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_24,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_24,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_24,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_24,Deadlock Necessary Conditions,6,0,1,2026-10-28T11:25:00Z
+student_24,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_24,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_24,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_24,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_24,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_24,Banker's Algorithm & Safe State,2,1,0,2026-10-28T10:05:00Z
+student_24,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_24,Banker's Algorithm & Safe State,4,1,0,2026-10-28T10:15:00Z
+student_24,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_24,Banker's Algorithm & Safe State,6,1,0,2026-10-28T11:25:00Z
+student_24,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_24,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_24,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_24,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_24,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_24,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_24,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_24,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_25,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_25,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_25,Deadlock Necessary Conditions,3,1,0,2026-10-28T10:10:00Z
+student_25,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_25,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_25,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_25,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_25,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_25,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_25,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_25,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_25,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_25,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_25,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_25,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_25,Properties of Relations,1,1,0,2026-10-28T10:00:00Z
+student_25,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_25,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_25,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_25,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_25,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_25,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_25,Properties of Relations,8,0,1,2026-10-28T11:35:00Z
+student_25,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_25,Properties of Relations,10,1,1,2026-10-28T12:45:00Z
+student_26,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_26,Deadlock Necessary Conditions,2,0,1,2026-10-28T10:05:00Z
+student_26,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_26,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_26,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_26,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_26,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_26,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_26,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_26,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_26,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_26,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_26,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_26,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_26,Banker's Algorithm & Safe State,7,0,1,2026-10-28T11:30:00Z
+student_26,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_26,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_26,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_26,Banker's Algorithm & Safe State,11,1,1,2026-10-28T12:50:00Z
+student_26,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_26,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_26,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_26,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_26,Properties of Relations,5,1,0,2026-10-28T11:20:00Z
+student_26,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_26,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_26,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_27,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_27,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_27,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_27,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_27,Deadlock Necessary Conditions,5,0,0,2026-10-28T11:20:00Z
+student_27,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_27,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_27,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_27,Deadlock Necessary Conditions,9,0,1,2026-10-28T12:40:00Z
+student_27,Banker's Algorithm & Safe State,1,1,1,2026-10-28T10:00:00Z
+student_27,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_27,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_27,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_27,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_27,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_27,Banker's Algorithm & Safe State,7,0,1,2026-10-28T11:30:00Z
+student_27,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_27,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_27,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_27,Banker's Algorithm & Safe State,11,1,1,2026-10-28T12:50:00Z
+student_27,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_27,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_27,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_27,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_27,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_27,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_27,Properties of Relations,7,0,1,2026-10-28T11:30:00Z
+student_27,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_28,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_28,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_28,Deadlock Necessary Conditions,3,0,1,2026-10-28T10:10:00Z
+student_28,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_28,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_28,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_28,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_28,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_28,Banker's Algorithm & Safe State,3,1,0,2026-10-28T10:10:00Z
+student_28,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_28,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_28,Banker's Algorithm & Safe State,6,1,0,2026-10-28T11:25:00Z
+student_28,Banker's Algorithm & Safe State,7,1,0,2026-10-28T11:30:00Z
+student_28,Banker's Algorithm & Safe State,8,0,0,2026-10-28T11:35:00Z
+student_28,Banker's Algorithm & Safe State,9,0,0,2026-10-28T12:40:00Z
+student_28,Banker's Algorithm & Safe State,10,0,0,2026-10-28T12:45:00Z
+student_28,Banker's Algorithm & Safe State,11,0,0,2026-10-28T12:50:00Z
+student_28,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_28,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_28,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_28,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_28,Properties of Relations,5,1,0,2026-10-28T11:20:00Z
+student_28,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_28,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_29,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_29,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_29,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_29,Deadlock Necessary Conditions,4,1,0,2026-10-28T10:15:00Z
+student_29,Deadlock Necessary Conditions,5,1,0,2026-10-28T11:20:00Z
+student_29,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_29,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_29,Deadlock Necessary Conditions,8,0,1,2026-10-28T11:35:00Z
+student_29,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_29,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_29,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_29,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_29,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_29,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_29,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_29,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_29,Banker's Algorithm & Safe State,8,0,0,2026-10-28T11:35:00Z
+student_29,Banker's Algorithm & Safe State,9,0,0,2026-10-28T12:40:00Z
+student_29,Banker's Algorithm & Safe State,10,0,0,2026-10-28T12:45:00Z
+student_29,Banker's Algorithm & Safe State,11,1,0,2026-10-28T12:50:00Z
+student_29,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_29,Properties of Relations,2,0,1,2026-10-28T10:05:00Z
+student_29,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_29,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_29,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_29,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_29,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_29,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_30,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_30,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_30,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_30,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_30,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_30,Deadlock Necessary Conditions,6,0,1,2026-10-28T11:25:00Z
+student_30,Banker's Algorithm & Safe State,1,1,0,2026-10-28T10:00:00Z
+student_30,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_30,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_30,Banker's Algorithm & Safe State,4,1,0,2026-10-28T10:15:00Z
+student_30,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_30,Banker's Algorithm & Safe State,6,1,0,2026-10-28T11:25:00Z
+student_30,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_30,Banker's Algorithm & Safe State,8,0,1,2026-10-28T11:35:00Z
+student_30,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_30,Properties of Relations,1,1,0,2026-10-28T10:00:00Z
+student_30,Properties of Relations,2,1,0,2026-10-28T10:05:00Z
+student_30,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_30,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_30,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_30,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_30,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_30,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_31,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_31,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_31,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_31,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_31,Deadlock Necessary Conditions,5,1,0,2026-10-28T11:20:00Z
+student_31,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_31,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_31,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_31,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_31,Banker's Algorithm & Safe State,4,1,0,2026-10-28T10:15:00Z
+student_31,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_31,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_31,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_31,Banker's Algorithm & Safe State,8,1,0,2026-10-28T11:35:00Z
+student_31,Banker's Algorithm & Safe State,9,0,0,2026-10-28T12:40:00Z
+student_31,Banker's Algorithm & Safe State,10,0,0,2026-10-28T12:45:00Z
+student_31,Properties of Relations,1,1,0,2026-10-28T10:00:00Z
+student_31,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_31,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_31,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_31,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_31,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_31,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_31,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_31,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_32,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_32,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_32,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_32,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_32,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_32,Deadlock Necessary Conditions,6,0,1,2026-10-28T11:25:00Z
+student_32,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_32,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_32,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_32,Deadlock Necessary Conditions,10,0,1,2026-10-28T12:45:00Z
+student_32,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_32,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_32,Banker's Algorithm & Safe State,3,0,1,2026-10-28T10:10:00Z
+student_32,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_32,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_32,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_32,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_32,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_32,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_32,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_32,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_32,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_32,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_32,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_32,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_32,Properties of Relations,8,0,1,2026-10-28T11:35:00Z
+student_32,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_33,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_33,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_33,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_33,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_33,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_33,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_33,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_33,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_33,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_33,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_33,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_33,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_33,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_33,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_33,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_33,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_33,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_33,Properties of Relations,4,1,0,2026-10-28T10:15:00Z
+student_33,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_33,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_33,Properties of Relations,7,0,0,2026-10-28T11:30:00Z
+student_33,Properties of Relations,8,0,0,2026-10-28T11:35:00Z
+student_33,Properties of Relations,9,1,0,2026-10-28T12:40:00Z
+student_34,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_34,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_34,Deadlock Necessary Conditions,3,0,1,2026-10-28T10:10:00Z
+student_34,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_34,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_34,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_34,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_34,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_34,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_34,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_34,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_34,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_34,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_34,Banker's Algorithm & Safe State,8,0,1,2026-10-28T11:35:00Z
+student_34,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_34,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_34,Banker's Algorithm & Safe State,11,1,1,2026-10-28T12:50:00Z
+student_34,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_34,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_34,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_34,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_34,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_34,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_34,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_34,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_34,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_35,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_35,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_35,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_35,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_35,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_35,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_35,Banker's Algorithm & Safe State,1,1,0,2026-10-28T10:00:00Z
+student_35,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_35,Banker's Algorithm & Safe State,3,1,0,2026-10-28T10:10:00Z
+student_35,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_35,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_35,Banker's Algorithm & Safe State,6,1,0,2026-10-28T11:25:00Z
+student_35,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_35,Banker's Algorithm & Safe State,8,1,0,2026-10-28T11:35:00Z
+student_35,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_35,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_35,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_35,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_35,Properties of Relations,4,1,0,2026-10-28T10:15:00Z
+student_35,Properties of Relations,5,1,0,2026-10-28T11:20:00Z
+student_35,Properties of Relations,6,1,0,2026-10-28T11:25:00Z
+student_35,Properties of Relations,7,0,0,2026-10-28T11:30:00Z
+student_35,Properties of Relations,8,1,0,2026-10-28T11:35:00Z
+student_35,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_35,Properties of Relations,10,1,1,2026-10-28T12:45:00Z
+student_36,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_36,Deadlock Necessary Conditions,2,0,1,2026-10-28T10:05:00Z
+student_36,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_36,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_36,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_36,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_36,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_36,Banker's Algorithm & Safe State,1,1,0,2026-10-28T10:00:00Z
+student_36,Banker's Algorithm & Safe State,2,1,0,2026-10-28T10:05:00Z
+student_36,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_36,Banker's Algorithm & Safe State,4,1,0,2026-10-28T10:15:00Z
+student_36,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_36,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_36,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_36,Banker's Algorithm & Safe State,8,0,0,2026-10-28T11:35:00Z
+student_36,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_36,Properties of Relations,1,1,0,2026-10-28T10:00:00Z
+student_36,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_36,Properties of Relations,3,1,0,2026-10-28T10:10:00Z
+student_36,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_36,Properties of Relations,5,1,0,2026-10-28T11:20:00Z
+student_36,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_37,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_37,Deadlock Necessary Conditions,2,1,0,2026-10-28T10:05:00Z
+student_37,Deadlock Necessary Conditions,3,1,0,2026-10-28T10:10:00Z
+student_37,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_37,Deadlock Necessary Conditions,5,0,0,2026-10-28T11:20:00Z
+student_37,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_37,Banker's Algorithm & Safe State,1,1,0,2026-10-28T10:00:00Z
+student_37,Banker's Algorithm & Safe State,2,1,0,2026-10-28T10:05:00Z
+student_37,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_37,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_37,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_37,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_37,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_37,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_37,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_37,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_37,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_37,Properties of Relations,6,0,1,2026-10-28T11:25:00Z
+student_37,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_37,Properties of Relations,8,0,1,2026-10-28T11:35:00Z
+student_38,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_38,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_38,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_38,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_38,Deadlock Necessary Conditions,5,0,0,2026-10-28T11:20:00Z
+student_38,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_38,Banker's Algorithm & Safe State,1,0,1,2026-10-28T10:00:00Z
+student_38,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_38,Banker's Algorithm & Safe State,3,0,1,2026-10-28T10:10:00Z
+student_38,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_38,Banker's Algorithm & Safe State,5,0,1,2026-10-28T11:20:00Z
+student_38,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_38,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_38,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_38,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_38,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_38,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_38,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_38,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_38,Properties of Relations,4,1,0,2026-10-28T10:15:00Z
+student_38,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_38,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_38,Properties of Relations,7,1,0,2026-10-28T11:30:00Z
+student_38,Properties of Relations,8,0,0,2026-10-28T11:35:00Z
+student_38,Properties of Relations,9,0,0,2026-10-28T12:40:00Z
+student_39,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_39,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_39,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_39,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_39,Deadlock Necessary Conditions,5,0,0,2026-10-28T11:20:00Z
+student_39,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_39,Deadlock Necessary Conditions,7,0,0,2026-10-28T11:30:00Z
+student_39,Deadlock Necessary Conditions,8,0,0,2026-10-28T11:35:00Z
+student_39,Deadlock Necessary Conditions,9,0,0,2026-10-28T12:40:00Z
+student_39,Deadlock Necessary Conditions,10,1,0,2026-10-28T12:45:00Z
+student_39,Banker's Algorithm & Safe State,1,1,0,2026-10-28T10:00:00Z
+student_39,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_39,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_39,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_39,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_39,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_39,Banker's Algorithm & Safe State,7,1,0,2026-10-28T11:30:00Z
+student_39,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_39,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_39,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_39,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_39,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_39,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_39,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_39,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_39,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_39,Properties of Relations,10,0,1,2026-10-28T12:45:00Z
+student_40,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_40,Deadlock Necessary Conditions,2,1,0,2026-10-28T10:05:00Z
+student_40,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_40,Deadlock Necessary Conditions,4,1,0,2026-10-28T10:15:00Z
+student_40,Deadlock Necessary Conditions,5,1,0,2026-10-28T11:20:00Z
+student_40,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_40,Deadlock Necessary Conditions,7,0,0,2026-10-28T11:30:00Z
+student_40,Deadlock Necessary Conditions,8,0,0,2026-10-28T11:35:00Z
+student_40,Deadlock Necessary Conditions,9,0,0,2026-10-28T12:40:00Z
+student_40,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_40,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_40,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_40,Banker's Algorithm & Safe State,4,0,1,2026-10-28T10:15:00Z
+student_40,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_40,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_40,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_40,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_40,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_40,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_40,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_40,Properties of Relations,5,1,0,2026-10-28T11:20:00Z
+student_40,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_40,Properties of Relations,7,0,0,2026-10-28T11:30:00Z
+student_40,Properties of Relations,8,0,0,2026-10-28T11:35:00Z
+student_40,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_40,Properties of Relations,10,1,1,2026-10-28T12:45:00Z
+student_40,Properties of Relations,11,1,1,2026-10-28T12:50:00Z
+student_41,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_41,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_41,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_41,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_41,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_41,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_41,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_41,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_41,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_41,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_41,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_41,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_41,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_41,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_41,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_41,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_41,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_41,Banker's Algorithm & Safe State,11,1,1,2026-10-28T12:50:00Z
+student_41,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_41,Properties of Relations,2,1,1,2026-10-28T10:05:00Z
+student_41,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_41,Properties of Relations,4,0,1,2026-10-28T10:15:00Z
+student_41,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_41,Properties of Relations,6,0,1,2026-10-28T11:25:00Z
+student_42,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_42,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_42,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_42,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_42,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_42,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_42,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_42,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_42,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_42,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_42,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_42,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_42,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_42,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_42,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_42,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_42,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_42,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_42,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_42,Properties of Relations,1,1,1,2026-10-28T10:00:00Z
+student_42,Properties of Relations,2,0,1,2026-10-28T10:05:00Z
+student_42,Properties of Relations,3,1,1,2026-10-28T10:10:00Z
+student_42,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_42,Properties of Relations,5,0,1,2026-10-28T11:20:00Z
+student_42,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_43,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_43,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_43,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_43,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_43,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_43,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_43,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_43,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_43,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_43,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_43,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_43,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_43,Banker's Algorithm & Safe State,7,0,0,2026-10-28T11:30:00Z
+student_43,Banker's Algorithm & Safe State,8,1,0,2026-10-28T11:35:00Z
+student_43,Banker's Algorithm & Safe State,9,0,0,2026-10-28T12:40:00Z
+student_43,Banker's Algorithm & Safe State,10,1,1,2026-10-28T12:45:00Z
+student_43,Properties of Relations,1,1,0,2026-10-28T10:00:00Z
+student_43,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_43,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_43,Properties of Relations,4,1,0,2026-10-28T10:15:00Z
+student_43,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_43,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_43,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_44,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_44,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_44,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_44,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_44,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_44,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_44,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_44,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_44,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_44,Deadlock Necessary Conditions,10,0,1,2026-10-28T12:45:00Z
+student_44,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_44,Banker's Algorithm & Safe State,2,1,0,2026-10-28T10:05:00Z
+student_44,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_44,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_44,Banker's Algorithm & Safe State,5,0,0,2026-10-28T11:20:00Z
+student_44,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_44,Properties of Relations,1,1,0,2026-10-28T10:00:00Z
+student_44,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_44,Properties of Relations,3,1,0,2026-10-28T10:10:00Z
+student_44,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_44,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_44,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_44,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_44,Properties of Relations,8,0,1,2026-10-28T11:35:00Z
+student_44,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_44,Properties of Relations,10,1,1,2026-10-28T12:45:00Z
+student_45,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_45,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_45,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_45,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_45,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_45,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_45,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_45,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_45,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_45,Banker's Algorithm & Safe State,2,1,0,2026-10-28T10:05:00Z
+student_45,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_45,Banker's Algorithm & Safe State,4,0,1,2026-10-28T10:15:00Z
+student_45,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_45,Banker's Algorithm & Safe State,6,0,1,2026-10-28T11:25:00Z
+student_45,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_45,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_45,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_45,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_45,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_45,Properties of Relations,6,0,1,2026-10-28T11:25:00Z
+student_45,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_45,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_45,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_46,Deadlock Necessary Conditions,1,1,0,2026-10-28T10:00:00Z
+student_46,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_46,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_46,Deadlock Necessary Conditions,4,0,1,2026-10-28T10:15:00Z
+student_46,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_46,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_46,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_46,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_46,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_46,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_46,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_46,Banker's Algorithm & Safe State,6,0,0,2026-10-28T11:25:00Z
+student_46,Banker's Algorithm & Safe State,7,1,0,2026-10-28T11:30:00Z
+student_46,Banker's Algorithm & Safe State,8,1,0,2026-10-28T11:35:00Z
+student_46,Banker's Algorithm & Safe State,9,0,0,2026-10-28T12:40:00Z
+student_46,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_46,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_46,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_46,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_46,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_46,Properties of Relations,6,1,0,2026-10-28T11:25:00Z
+student_46,Properties of Relations,7,1,0,2026-10-28T11:30:00Z
+student_46,Properties of Relations,8,0,0,2026-10-28T11:35:00Z
+student_46,Properties of Relations,9,1,0,2026-10-28T12:40:00Z
+student_47,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_47,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_47,Deadlock Necessary Conditions,3,0,0,2026-10-28T10:10:00Z
+student_47,Deadlock Necessary Conditions,4,0,0,2026-10-28T10:15:00Z
+student_47,Deadlock Necessary Conditions,5,0,0,2026-10-28T11:20:00Z
+student_47,Deadlock Necessary Conditions,6,0,0,2026-10-28T11:25:00Z
+student_47,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_47,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_47,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_47,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_47,Banker's Algorithm & Safe State,3,0,0,2026-10-28T10:10:00Z
+student_47,Banker's Algorithm & Safe State,4,0,0,2026-10-28T10:15:00Z
+student_47,Banker's Algorithm & Safe State,5,1,0,2026-10-28T11:20:00Z
+student_47,Banker's Algorithm & Safe State,6,1,0,2026-10-28T11:25:00Z
+student_47,Banker's Algorithm & Safe State,7,1,0,2026-10-28T11:30:00Z
+student_47,Banker's Algorithm & Safe State,8,1,0,2026-10-28T11:35:00Z
+student_47,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_47,Properties of Relations,2,1,0,2026-10-28T10:05:00Z
+student_47,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_47,Properties of Relations,4,1,1,2026-10-28T10:15:00Z
+student_47,Properties of Relations,5,1,1,2026-10-28T11:20:00Z
+student_47,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
+student_47,Properties of Relations,7,1,1,2026-10-28T11:30:00Z
+student_47,Properties of Relations,8,1,1,2026-10-28T11:35:00Z
+student_47,Properties of Relations,9,1,1,2026-10-28T12:40:00Z
+student_48,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_48,Deadlock Necessary Conditions,2,0,1,2026-10-28T10:05:00Z
+student_48,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_48,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_48,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_48,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_48,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_48,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_48,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_48,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_48,Banker's Algorithm & Safe State,1,1,1,2026-10-28T10:00:00Z
+student_48,Banker's Algorithm & Safe State,2,0,1,2026-10-28T10:05:00Z
+student_48,Banker's Algorithm & Safe State,3,0,1,2026-10-28T10:10:00Z
+student_48,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_48,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_48,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_48,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_48,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_48,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_48,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_48,Properties of Relations,2,1,0,2026-10-28T10:05:00Z
+student_48,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_48,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_48,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_48,Properties of Relations,6,0,0,2026-10-28T11:25:00Z
+student_48,Properties of Relations,7,1,0,2026-10-28T11:30:00Z
+student_48,Properties of Relations,8,0,0,2026-10-28T11:35:00Z
+student_49,Deadlock Necessary Conditions,1,0,0,2026-10-28T10:00:00Z
+student_49,Deadlock Necessary Conditions,2,0,0,2026-10-28T10:05:00Z
+student_49,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_49,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_49,Deadlock Necessary Conditions,5,1,1,2026-10-28T11:20:00Z
+student_49,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_49,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_49,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_49,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_49,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_49,Banker's Algorithm & Safe State,2,0,0,2026-10-28T10:05:00Z
+student_49,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_49,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_49,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_49,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_49,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_49,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_49,Banker's Algorithm & Safe State,9,0,1,2026-10-28T12:40:00Z
+student_49,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_49,Properties of Relations,2,1,0,2026-10-28T10:05:00Z
+student_49,Properties of Relations,3,1,0,2026-10-28T10:10:00Z
+student_49,Properties of Relations,4,0,0,2026-10-28T10:15:00Z
+student_49,Properties of Relations,5,0,0,2026-10-28T11:20:00Z
+student_49,Properties of Relations,6,1,0,2026-10-28T11:25:00Z
+student_49,Properties of Relations,7,0,0,2026-10-28T11:30:00Z
+student_50,Deadlock Necessary Conditions,1,1,1,2026-10-28T10:00:00Z
+student_50,Deadlock Necessary Conditions,2,1,1,2026-10-28T10:05:00Z
+student_50,Deadlock Necessary Conditions,3,1,1,2026-10-28T10:10:00Z
+student_50,Deadlock Necessary Conditions,4,1,1,2026-10-28T10:15:00Z
+student_50,Deadlock Necessary Conditions,5,0,1,2026-10-28T11:20:00Z
+student_50,Deadlock Necessary Conditions,6,1,1,2026-10-28T11:25:00Z
+student_50,Deadlock Necessary Conditions,7,1,1,2026-10-28T11:30:00Z
+student_50,Deadlock Necessary Conditions,8,1,1,2026-10-28T11:35:00Z
+student_50,Deadlock Necessary Conditions,9,1,1,2026-10-28T12:40:00Z
+student_50,Deadlock Necessary Conditions,10,1,1,2026-10-28T12:45:00Z
+student_50,Banker's Algorithm & Safe State,1,0,0,2026-10-28T10:00:00Z
+student_50,Banker's Algorithm & Safe State,2,1,1,2026-10-28T10:05:00Z
+student_50,Banker's Algorithm & Safe State,3,1,1,2026-10-28T10:10:00Z
+student_50,Banker's Algorithm & Safe State,4,1,1,2026-10-28T10:15:00Z
+student_50,Banker's Algorithm & Safe State,5,1,1,2026-10-28T11:20:00Z
+student_50,Banker's Algorithm & Safe State,6,1,1,2026-10-28T11:25:00Z
+student_50,Banker's Algorithm & Safe State,7,1,1,2026-10-28T11:30:00Z
+student_50,Banker's Algorithm & Safe State,8,1,1,2026-10-28T11:35:00Z
+student_50,Banker's Algorithm & Safe State,9,1,1,2026-10-28T12:40:00Z
+student_50,Properties of Relations,1,0,0,2026-10-28T10:00:00Z
+student_50,Properties of Relations,2,0,0,2026-10-28T10:05:00Z
+student_50,Properties of Relations,3,0,0,2026-10-28T10:10:00Z
+student_50,Properties of Relations,4,1,0,2026-10-28T10:15:00Z
+student_50,Properties of Relations,5,1,0,2026-10-28T11:20:00Z
+student_50,Properties of Relations,6,1,1,2026-10-28T11:25:00Z
