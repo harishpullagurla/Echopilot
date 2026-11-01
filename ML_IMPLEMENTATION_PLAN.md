@@ -72,4 +72,6 @@ python -m pip install -r ml_research/requirements.txt
 python ml_research/train_assistments_bkt.py
 ```
 
+The same complete workflow is available cell by cell in `ml_research/notebooks/01_assistments_bkt_calibration.ipynb`; its saved outputs show the latest executed run.
+
 The script writes aggregate metrics to `ml_research/results/assistments_bkt.json` and updates the runtime parameter file only when held-out Brier score improves and log loss is no worse than the previous app baseline. Raw learner records stay local and should not be pushed to GitHub.

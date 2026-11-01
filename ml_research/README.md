@@ -1,6 +1,6 @@
 # EchoPilot learner-model calibration
 
-This folder contains only the Python code and artifacts used to fit and evaluate the app's Bayesian Knowledge Tracing (BKT) starting parameters. It does not generate quizzes: Gemini remains the quiz writer.
+This folder contains only the Python code and artifacts used to fit and evaluate the app's Bayesian Knowledge Tracing (BKT) starting parameters, including an executed Jupyter notebook with cell outputs. It does not generate quizzes: Gemini remains the quiz writer.
 
 ## Contents
 
@@ -8,12 +8,14 @@ This folder contains only the Python code and artifacts used to fit and evaluate
 ml_research/
 ├── data/
 │   └── raw/skill_builder_data_corrected_collapsed.csv  # local only; ignored by Git
+├── notebooks/
+│   └── 01_assistments_bkt_calibration.ipynb            # runnable, cell-by-cell training walkthrough
 ├── results/assistments_bkt.json                        # aggregate data and metrics; no student IDs
 ├── src/
 │   ├── __init__.py
 │   └── bkt.py                                           # BKT forward updates and EM fitting
 ├── train_assistments_bkt.py                            # preprocessing, training, evaluation
-└── requirements.txt                                    # NumPy and scikit-learn
+└── requirements.txt                                    # NumPy, scikit-learn, and IPython kernel
 ```
 
 The Express app reads the fitted values from `server/bkt-parameters.json` at startup. The raw CSV stays local and is excluded by the root `.gitignore`.
@@ -26,7 +28,9 @@ The dataset is historical math tutoring data. The `correct` field is 1 for corre
 
 ## Training and holdout method
 
-From the project root, install the small Python dependencies and run:
+Open `ml_research/notebooks/01_assistments_bkt_calibration.ipynb` in Jupyter or VS Code and run its cells from top to bottom. It contains the complete preprocessing, student split, model fit, holdout evaluation, and artifact export, with outputs saved from the latest run.
+
+For a command-line repeat of the same steps, from the project root install the Python dependencies and run:
 
 ```bash
 python -m pip install -r ml_research/requirements.txt

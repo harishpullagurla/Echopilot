@@ -44,5 +44,5 @@
   },
   "integration_decision": "use_fitted_parameters",
   "evaluation_note": "Lower Brier score and log loss indicate better probability forecasts; AUC and ECE are supplementary.",
-  "created_at_utc": "2026-11-01T11:56:16.457674+00:00"
+  "created_at_utc": "2026-11-01T12:19:29.659307+00:00"
 }

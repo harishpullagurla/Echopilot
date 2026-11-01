@@ -7,7 +7,7 @@
   },
   "source": "ASSISTments 2009-2010 Skill Builder, corrected/collapsed version",
   "source_url": "https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010",
-  "trained_at_utc": "2026-11-01T11:56:16.457674+00:00",
+  "trained_at_utc": "2026-11-01T12:19:29.659307+00:00",
   "evaluation": {
     "baseline": {
       "brier_score": 0.221969,
