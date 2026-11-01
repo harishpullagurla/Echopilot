@@ -55,7 +55,9 @@ The student response is graded by the server with a direct comparison: selected 
 
 ## How progress changes future quizzes
 
-Each material has separate topic estimates. For each response, BKT updates a probability called `pKnown`. The initial estimate and the guess, slip, and learning settings are project defaults. They have not been fitted using a large student dataset, so a displayed score should be read as a rough model estimate.
+Each material has separate topic estimates. For each response, BKT updates a probability called `pKnown`. The shared starting values were fitted on the public ASSISTments 2009–2010 Skill Builder math dataset, then the app updates each learner's material-topic estimate from their own answers. This is a population prior, not a grade or a validated measure for every subject.
+
+For this experiment, 80% of students were used for fitting and 20% were held out, so the same learner could not occur in both groups. On 72,252 held-out responses, Brier score improved from 0.221969 to 0.206817, log loss from 0.653067 to 0.603175, AUC-ROC from 0.656065 to 0.659295, and expected calibration error from 0.104846 to 0.016676. These values show better prediction and calibration on that historical math dataset; they do not prove better learning outcomes or accuracy on all EchoPilot quizzes. See `ML_IMPLEMENTATION_PLAN.md` for dataset details and metric definitions.
 
 The topic scheduler estimates which question is likely to teach the system the most about a student's current knowledge. Topics with more uncertainty can have greater expected information gain. It also raises priority when a topic is due for review or has recent wrong answers. A correct streak increases the time before that topic is due again; a wrong answer makes it due again immediately. Gemini receives the mastery estimate and recent accuracy as continuous difficulty guidance, but as a language model it may not follow that guidance perfectly every time.
 
@@ -76,7 +78,7 @@ PDF extraction, embeddings, retrieval, reranking, and NLI run locally. The selec
 
 - Gemini can make an incorrect question or answer key even when its output passes the format checks.
 - The local source-support result is a classifier estimate; it can miss unsupported answers or flag valid paraphrases.
-- BKT and the review interval are transparent heuristics with hand-set starting values, not calibrated predictions.
+- The BKT starting prior was calibrated on historical math responses, not EchoPilot usage or other subjects; the review interval and topic-selection weights remain hand-set heuristics.
 - Scanned image PDFs need OCR, which is not part of this project.
 - Local model weights need to download once and use local compute; the quiz-writing step still requires a working Gemini API key and quota.
 - The app saves state locally for one user and is not designed as a multi-user production service.
@@ -87,5 +89,7 @@ PDF extraction, embeddings, retrieval, reranking, and NLI run locally. The selec
 - `server/ai.js` — chunking, local model loading, embeddings, retrieval, reranking, NLI check, BKT, topic scheduling.
 - `server/evaluation/retrieval-cases.json` — synthetic retrieval examples with expected passage labels.
 - `server/evaluate-retrieval.js` — compares BM25 and hybrid retrieval using Recall@7 and MRR.
+- `ml_research/` — BKT calibration script and aggregate ASSISTments evaluation results.
 - `src/App.jsx` — app views, quiz UI, and support-check feedback.
 - `GEMINI_API_IMPLEMENTATION.md` — technical implementation details.
+- `EchoPilot_Presentation_Content.md` — ready-to-use presentation outline and speaker cues.

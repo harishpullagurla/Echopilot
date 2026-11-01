@@ -1,4 +1,5 @@
 import crypto from 'node:crypto';
+import { readFileSync } from 'node:fs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -11,7 +12,19 @@ const EMBEDDING_DIMENSIONS = 384;
 const MAX_CHUNK_CHARS = 1200;
 const CHUNK_OVERLAP_CHARS = 140;
 const EMBEDDING_BATCH_SIZE = 16;
-const BKT = { initialKnowledge: 0.3, learning: 0.15, guess: 0.25, slip: 0.1 };
+const DEFAULT_BKT = { initialKnowledge: 0.3, learning: 0.15, guess: 0.25, slip: 0.1 };
+const BKT = (() => {
+  try {
+    const artifactPath = path.join(path.dirname(fileURLToPath(import.meta.url)), 'bkt-parameters.json');
+    const parameters = JSON.parse(readFileSync(artifactPath, 'utf8')).parameters;
+    const valid = Object.keys(DEFAULT_BKT).every(
+      (key) => Number.isFinite(parameters?.[key]) && parameters[key] >= 0 && parameters[key] <= 1
+    );
+    return valid ? { ...DEFAULT_BKT, ...parameters } : DEFAULT_BKT;
+  } catch {
+    return DEFAULT_BKT;
+  }
+})();
 const RRF_K = 60;
 const STOPWORDS = new Set([
   'the',

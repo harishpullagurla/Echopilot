@@ -16,7 +16,7 @@ The first material indexing run downloads the configured small ONNX models from 
 - `pdf-parse` extracts readable text from each uploaded PDF.
 - The backend chunks text and creates normalized 384-dimensional local embeddings with `Xenova/bge-small-en-v1.5` using Transformers.js/ONNX.
 - Passage retrieval combines semantic similarity and BM25 keyword relevance with reciprocal rank fusion (RRF), then reranks the strongest candidates with the local `Xenova/ms-marco-MiniLM-L-6-v2` cross-encoder.
-- Per-topic Bayesian Knowledge Tracing (BKT) updates a probability of mastery after every answer. The next topic is selected by expected information gain, spaced-review due-ness, and recent mistakes rather than a fixed mastery cutoff. Gemini receives mastery and recent accuracy as continuous signals for question difficulty.
+- Per-topic Bayesian Knowledge Tracing (BKT) updates a probability of mastery after every answer. Its shared starting parameters are fitted on public ASSISTments math interactions and used only after a held-out-student evaluation improved calibration. The next topic is selected by expected information gain, spaced-review due-ness, and recent mistakes. Gemini receives mastery and recent accuracy as continuous signals for question difficulty.
 - Gemini creates a structured five-question quiz from the retrieved PDF excerpts. The server validates structure, options, answer-index bounds, and topic focus; a local MobileBERT NLI model checks whether each answer/explanation appears supported by its selected passage.
 - Answers are scored deterministically against the quiz key. Quiz history, evidence quotes, source-check results, and per-material progress are saved locally.
 
@@ -26,4 +26,11 @@ The evidence model is an advisory cross-check, not a guarantee of correctness. I
 
 PDFs are stored in `server/data/uploads/`, learner state in `server/data/db.json`, local model weights in `server/data/model-cache/`, and passage vectors in `server/data/embeddings/`. PDF text stays local for embedding, retrieval, and evidence checks; retrieved passages are sent to Google as context for Gemini quiz generation. This is a single-user local project, not a production or multi-user service. Scanned/image-only PDF OCR and model fine-tuning are not included.
 
-Retrieval quality can be measured with the synthetic labeled cases in `server/evaluation/retrieval-cases.json` and `npm run evaluate:retrieval`; the report includes Recall@7 and MRR. The adaptive BKT parameters are still project defaults and have not been calibrated on a real learner dataset.
+Retrieval quality can be measured with the synthetic labeled cases in `server/evaluation/retrieval-cases.json` and `npm run evaluate:retrieval`; the report includes Recall@7 and MRR. BKT's public-data calibration experiment and held-out metrics are documented in `ml_research/results/assistments_bkt.json`. Because ASSISTments is historical mathematics data, those shared parameters are only an initial population prior for EchoPilot; each learner's per-material/topic mastery is updated from their own quiz answers.
+
+## Project documents
+
+- [Beginner guide](ECHOPILOT_BEGINNER_GUIDE.md) — app flow and AI concepts in plain language.
+- [Project report](Project%20Report.md) — end-to-end explanation and viva questions.
+- [Current ML implementation](ML_IMPLEMENTATION_PLAN.md) — ASSISTments dataset, BKT training, and evaluation.
+- [Presentation content](EchoPilot_Presentation_Content.md) — slide-ready outline with speaker cues.

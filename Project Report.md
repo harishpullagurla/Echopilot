@@ -201,14 +201,14 @@ RAG gives the model course-specific context. It does not eliminate hallucination
 
 For each material-topic pair, EchoPilot stores a mastery probability `pKnown`, a display score, an answer count, an update timestamp, a correct streak, and a review interval.
 
-The default BKT values are:
+The shared BKT parameters are learned from public ASSISTments Skill Builder interactions using Baum-Welch Expectation-Maximization (EM):
 
 | Symbol | Code setting | Meaning |
 |---|---:|---|
-| `P(L0)` | 0.30 | Initial probability the learner already knows the topic |
-| `P(T)` | 0.15 | Probability of learning the topic after an opportunity |
-| `P(G)` | 0.25 | Probability of a correct guess without knowing the topic |
-| `P(S)` | 0.10 | Probability of a mistake even when the topic is known |
+| `P(L0)` | 0.7306 | Initial probability the learner already knows the topic |
+| `P(T)` | 0.0311 | Probability of learning the topic after an opportunity |
+| `P(G)` | 0.3193 | Probability of a correct guess without knowing the topic |
+| `P(S)` | 0.2313 | Probability of a mistake even when the topic is known |
 
 Let `p` be the current probability of knowing the topic.
 
@@ -226,7 +226,20 @@ Then the implementation applies the learning transition:
 
 The result is kept between 0.001 and 0.999. The displayed topic score is `round(100 × pKnown)`.
 
-**Important interpretation:** These values are set defaults, not fitted from a large collection of student responses. BKT produces a useful project estimate, not a certified measure of a student's ability.
+**Dataset and fitting process:** We used the corrected/collapsed [ASSISTments 2009–2010 Skill Builder dataset](https://sites.google.com/site/assistmentsdata/home/2009-2010-assistment-data/skill-builder-data-2009-2010), a historical math mastery-learning dataset. The official page notes duplicates in the original files; the corrected file has one row per student-problem and combines multiple skill tags into labels such as `skill1_skill2`. The trainer keeps each composite tag as a single label. Its `correct` outcome is 1 for correct on the first attempt and 0 for incorrect on the first attempt or help requested. This run used 346,860 valid responses from 4,217 students and 113 skill labels. Responses were grouped by student and skill, ordered using `order_id`, and split by student using seed 42: 3,374 students for training, 843 for holdout. BKT parameters were fitted with Baum-Welch EM on a deterministic sample of 6,000 sequences and evaluated across 72,252 responses from all 7,958 held-out sequences. No student appears in both groups.
+
+**Evaluation results:** The former app settings were `P(L0)=0.30`, `P(T)=0.15`, `P(G)=0.25`, `P(S)=0.10`; the fitted values are `0.7306`, `0.0311`, `0.3193`, and `0.2313` respectively.
+
+| Metric | Former settings | Fitted BKT | Change | Beginner explanation |
+|---|---:|---:|---:|---|
+| Brier score | 0.221969 | **0.206817** | 6.83% lower | Average squared error of predicted correctness probabilities. Lower is better. |
+| Log loss | 0.653067 | **0.603175** | 7.64% lower | Penalizes predictions that are confidently wrong. Lower is better. |
+| AUC-ROC | 0.656065 | **0.659295** | +0.003230 | Measures whether correct answers tend to receive higher predicted probabilities. Higher is better. |
+| ECE | 0.104846 | **0.016676** | 84.09% lower | Measures the gap between predicted confidence and observed accuracy. Lower is better. |
+
+All four metrics improved on the held-out students. The largest gain was calibration, while ranking ability improved modestly. Results are recorded in `ml_research/results/assistments_bkt.json`; the app reads the fitted values from `server/bkt-parameters.json`.
+
+**Important interpretation:** This improves response prediction in the historical ASSISTments math data. It does not prove EchoPilot improves learning or that these values match every PDF, subject, or Gemini quiz. The fitted values supply a shared starting prior; each material-topic mastery estimate is still updated from the current learner's own answers. Existing progress is not reset. The raw public CSV stays in ignored `ml_research/data/raw/` and is not included in Git.
 
 ### 5.8 Expected information gain and adaptive topic scheduling
 
@@ -324,7 +337,7 @@ The first run may download the local embedding and reranking models. These 12 sy
 - **Adaptation quality:** whether the next quiz practices a topic a teacher or learner considers appropriate after viewing prior answers.
 - **Brier score or log loss:** if future response data is collected, measure how well mastery probabilities predict the next response. Lower values indicate better probabilistic predictions.
 
-No performance numbers are claimed in this report because the synthetic evaluator has not been run as part of preparing this document, and no human-labeled learner dataset is currently available.
+The BKT response-prediction results above are measured on a public student-level holdout. They do not evaluate learning gains or EchoPilot quiz correctness. Retrieval still has a small synthetic benchmark, but this report does not claim retrieval performance on real PDFs because no representative human-labeled course-material test set has been evaluated.
 
 ## 9. Setup and run instructions
 
@@ -372,7 +385,7 @@ The first use of local models may take extra time while weights download and ini
 - **Generated answers can be wrong.** Schema validation checks structure, not every scientific or factual claim.
 - **Evidence checks can be wrong.** NLI is an advisory classifier, not a fact-verification system.
 - **PDF extraction is text-only.** Scanned pages and embedded diagrams are not interpreted; OCR and image understanding are outside scope.
-- **BKT values are defaults.** They have not been trained or calibrated on EchoPilot student data.
+- **BKT values come from a public historical math dataset.** They have not been calibrated on EchoPilot quiz responses, other subject areas, or this project's Gemini-generated questions.
 - **Difficulty guidance is probabilistic.** Gemini may not match the intended difficulty every time.
 - **Retrieval can miss context.** Reranking improves candidate selection but cannot guarantee that the seven passages contain every fact needed.
 - **The progress store is single-user JSON.** There is no authentication, user isolation, database transaction system, or production backup strategy.
@@ -393,7 +406,7 @@ For a 7–10 minute presentation, use this order:
 5. **Quiz generation and evidence check (about 1 minute):** Show prompt constraints, schema validation, quote attachment, and NLI advisory label.
 6. **Adaptive learning (about 2 minutes):** Explain BKT probabilities, entropy/EIG, due review, recent mistakes, and difficulty guidance.
 7. **Progress view and evaluation (about 1 minute):** Show per-material history; define Recall@7 and MRR and state that current data is a small synthetic evaluation set.
-8. **Limitations and conclusion (about 45 seconds):** Mention no OCR, uncalibrated BKT defaults, possible model errors, local single-user storage, and the next meaningful evaluation step.
+8. **Limitations and conclusion (about 45 seconds):** Mention no OCR, BKT's historical math-data calibration limits, possible model errors, local single-user storage, and the next meaningful evaluation step.
 
 ### Short opening script
 
@@ -459,7 +472,7 @@ A. The project includes a small synthetic set where each query has an expected p
 A. BKT keeps a probability estimate for whether a learner knows a topic. Correct and incorrect answers update that probability, while guess and slip settings account for lucky answers and careless mistakes.
 
 **Q16. Is the mastery score a grade?**<br>
-A. No. It is a rounded BKT estimate based on a small set of hand-chosen parameters. It is useful for demonstrating adaptation, but it has not been calibrated against a large student dataset.
+A. No. It is a rounded probability estimate. Its shared BKT parameters were fitted on public ASSISTments math data and each learner's estimate is updated from their own answers. The parameters are not validated for every subject or EchoPilot-generated quiz.
 
 **Q17. How does EchoPilot select the next topic now?**<br>
 A. It scores each stored topic using expected information gain, review timing, recent incorrect answers, and estimated mastery. It chooses the highest score rather than using one fixed mastery threshold.
@@ -494,10 +507,10 @@ A. Retrieval attempts a BM25 keyword fallback, and an unavailable NLI check is m
 A. Embeddings, reranking, and NLI run locally. The selected PDF excerpts and quiz instructions are sent to Gemini for question generation. So the project is not fully local-only.
 
 **Q27. What would you improve before production?**<br>
-A. Add authentication and per-user data isolation, use a transactional database, keep generated quiz answer keys server-side, add OCR if needed, evaluate retrieval on human-labeled course materials, calibrate BKT with real learner response data, and conduct a human review of question accuracy.
+A. Add authentication and per-user data isolation, use a transactional database, keep generated quiz answer keys server-side, add OCR if needed, evaluate retrieval on human-labeled course materials, validate BKT on consented EchoPilot learner responses, and conduct a human review of question accuracy.
 
 **Q28. What is the biggest limitation today?**<br>
-A. The AI outputs and progress estimates are not calibrated against a large human-reviewed dataset. The project demonstrates the pipeline, but it cannot yet claim that the questions are always correct or that the adaptive schedule improves learning outcomes.
+A. BKT's shared parameters have been calibrated on a public historical math dataset, but not against EchoPilot usage or the full range of subjects and generated questions. The project cannot claim that quiz questions are always correct or that the adaptive schedule improves learning outcomes.
 
 ## 13. Glossary
 
