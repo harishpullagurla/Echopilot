@@ -1,8 +1,8 @@
-# EchoPilot — Project Report and Presentation Guide
+# EchoPilot - Project Report 
 
-**Project type:** College project / local web application<br>
-**Project area:** Educational technology, generative AI, information retrieval, and learner modeling<br>
-**Prepared:** November 2026
+**Project Name:** Echopilot - An AI-assisted personal learning tutor <br>
+**Group Number:** 44<br>
+**Project area:** Generative-AI , Natural Language Processing<br>
 
 ## 1. Project summary
 
@@ -27,9 +27,6 @@ EchoPilot turns each uploaded PDF into a separate source of study material. It r
 - Use prior answers and review timing to guide the next topic.
 - Keep retrieval and answer-support models local after their initial model download.
 
-### Current scope
-
-The app is designed for a single local user and a college demonstration. It includes material upload, material-specific quizzes, answer feedback, progress history, a backend API, Gemini quiz generation, local retrieval models, and local JSON/file storage. It is not a production multi-user learning platform.
 
 ## 2. What a user does
 
@@ -76,16 +73,6 @@ flowchart TD
 | Quiz generation | Google Gemini `generateContent` | Writes a structured quiz from selected PDF excerpts |
 | Local model runtime | Transformers.js and ONNX | Runs embedding, reranking, and NLI models locally |
 | Persistence | JSON and local files | Stores PDFs, extracted text, indexes, quizzes, and progress |
-
-### Important code locations
-
-- `src/App.jsx` — screen navigation, upload flow, quiz interaction, result feedback, and progress history.
-- `src/styles.css` — visual styles and responsive layout.
-- `server/index.js` — Express endpoints, PDF upload, Gemini prompt/validation, grading, and database updates.
-- `server/ai.js` — chunking, local model loading, embeddings, hybrid retrieval, evidence checks, BKT, and topic scheduling.
-- `server/evaluation/retrieval-cases.json` — small synthetic retrieval evaluation set.
-- `server/evaluate-retrieval.js` — BM25 and hybrid retrieval metrics runner.
-- `.env` — local secrets and settings. Never put a real key in a presentation, screenshot, or source control.
 
 ## 4. End-to-end processing flow
 
